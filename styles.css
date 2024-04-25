@@ -52,6 +52,7 @@ background-color: #00A1FC;
 .porto-img{
     width: 120px;
     height: 120px;
+    
 }
 .section-content{
     font-size: 50px;
@@ -63,8 +64,30 @@ background-color: #00A1FC;
     text-align:start;
 }
 .check{
-    width: 15px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
+    
 
 
 }
+.sub-tittles{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.but2{
+    font-weight: 500;
+    padding: 16px 10px;
+    width: 253px ;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #D9F1FF;
+    
+}
+
