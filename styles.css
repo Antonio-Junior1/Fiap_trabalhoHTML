@@ -1,0 +1,12 @@
+.container{
+    display: flex;    
+    background-color: grey;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
