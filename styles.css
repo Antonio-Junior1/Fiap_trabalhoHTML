@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100% ;
+    padding: 22px 14px;
 }
 
 .but1{
@@ -36,39 +37,34 @@
 }
 main{
 background-color: #00A1FC;
-    width: 100%; /* 100% da largura da janela do navegador */
-     height: 100vh;
+    width: 100%; 
+    min-height: 821px;
+    padding: 120px 116px;
     
 }
-.containerB{
-    font-size: 700;
-    font-weight: 700;
+.main-content{
+   
     color: #ffff;
     display:flex;
-     width: 100%; /* 100% da largura da janela do navegador */
-     height: 100vh; /* 100% da altura da janela do navegador */
-  
-    
-    
-
-
-
-
-
+    justify-content: space-between;
+ 
 }    
-.child1{
-    width: 100%;
-    height: 200px;
-    background-color: #00A1FC;
-    display: flex;
-    border:1px solid black;
+.main-content img{
+    width: 120px;
+    height: 120px;
 }
-.child2{
-    width: 100%;
-    height: 200px;
-    background-color: #00A1FC;
+.section-content{
+    font-size: 50px;
+    font-weight: 600;
+    width: 592px;
+    min-height: 352px;
     display: flex;
-  
+    flex-direction: column;
+    text-align:start;
 }
+.check{
+    width: 21px;
+    height: 21px;
 
 
+}
