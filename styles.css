@@ -1,18 +1,18 @@
 * {
     box-sizing: border-box;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #ffff;
-    font-family: "IBM Plex Sans Hebrew", sans-serif;
 }  
 
 .container {
+
     display: flex;    
-    padding: 16px 120px;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 20px;
+     background-color: #ffff;
 }
 
 .content {
@@ -33,7 +33,10 @@
     border-radius: 999px;
     cursor: pointer;
     
-
+}
+main{
+background-color: #00A1FC;
+    
 }
 
 
