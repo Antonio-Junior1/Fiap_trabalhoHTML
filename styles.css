@@ -48,7 +48,7 @@ background-color: #00A1FC;
     display:flex;
     justify-content: space-between;
     align-items: center;
- 
+    
 }    
 .porto-img{
     width: 25%;
@@ -68,6 +68,7 @@ background-color: #00A1FC;
 .check{
     width: 24px;
     height: 24px;
+   
     
 
 
@@ -77,6 +78,7 @@ background-color: #00A1FC;
     display: flex;
     align-items: center;
     color: black;
+    margin-top: 12px;
 }
 
 .but2{
@@ -95,7 +97,7 @@ background-color: #00A1FC;
 footer{
 
     background-color: black;
-    min-height: 1233px;
+    height: 100%;
     width: 100%;
     color: #ffff;
     padding: 100px;
@@ -137,9 +139,21 @@ footer{
     margin: 10px 0; 
 
 }
-.bottons{
-    
-    padding: 112px;
-    min-height: 642px;
-    
+.container-bott{
+    display: flex;
+    flex-direction: column;
+    gap: 600px   ;
 }
+.content-bottons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.language{
+    width: 70px;
+    height: 16px;
+}
+
+
