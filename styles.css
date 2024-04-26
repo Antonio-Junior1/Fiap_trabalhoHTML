@@ -107,6 +107,7 @@ footer{
     font-size: 56px;
     max-width:  693px;
     text-align: center;
+    border: #ffff;
    
 
 }
@@ -128,5 +129,17 @@ footer{
     cursor: pointer;
     background-color: #ffff;
     color: black;
+    
+}
+
+.separator{
+    border-top: 1px solid #292929;
+    margin: 10px 0; 
+
+}
+.bottons{
+    
+    padding: 112px;
+    min-height: 642px;
     
 }
