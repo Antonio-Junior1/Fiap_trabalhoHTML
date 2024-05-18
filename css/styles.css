@@ -3,77 +3,75 @@
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     padding: 0;
     margin: 0;
-}  
+}
+html, body {
+    height: 100%;
+}
 
 .container {
-
     display: flex;    
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 20px;
-     background-color: #ffff;
+    background-color: #ffff;
 }
 
 .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100% ;
+    width: 100%;
     padding: 22px 14px;
 }
 
-.but1{
+.but1 {
     font-weight: 500;
     padding: 16px 10px;
-    width: 109px ;
+    width: 109px;
     height: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 999px;
     cursor: pointer;
-    
 }
-main{
-background-color: #00A1FC;
-    width: 100%; 
+
+main {
+    background-color: #00A1FC;
+    width: 100%;
     min-height: 821px;
     padding: 120px 116px;
-    
 }
-.main-content{
-   
+
+.main-content {
     color: #ffff;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}    
-.porto-img{
+}
+
+.porto-img {
     width: 25%;
     height: 25%;
-    
-
 }
-.section-content{
+
+.section-content {
     font-size: 50px;
     font-weight: 600;
     width: 592px;
     min-height: 352px;
     display: flex;
     flex-direction: column;
-    text-align:start;
+    text-align: start;
 }
-.check{
+
+.check {
     width: 24px;
     height: 24px;
-   
-    
-
-
 }
-.sub-tittles{
+
+.sub-tittles {
     font-size: small;
     display: flex;
     align-items: center;
@@ -81,10 +79,10 @@ background-color: #00A1FC;
     margin-top: 12px;
 }
 
-.but2{
+.but2 {
     font-weight: 500;
     padding: 16px 10px;
-    width: 253px ;
+    width: 253px;
     height: 56px;
     align-items: center;
     display: flex;
@@ -92,37 +90,36 @@ background-color: #00A1FC;
     border-radius: 999px;
     cursor: pointer;
     background-color: #ffff;
-    
 }
-footer{
 
+footer {
     background-color: black;
     height: 100%;
     width: 100%;
     color: #ffff;
     padding: 100px;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 56px;
-    max-width:  693px;
+    max-width: 693px;
     text-align: center;
     border: #ffff;
-   
-
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.but3{
+.but3 {
     font-weight: 500;
     padding: 16px 10px;
-    width: 253px ;
+    width: 253px;
     height: 56px;
     align-items: center;
     display: flex;
@@ -131,29 +128,106 @@ footer{
     cursor: pointer;
     background-color: #ffff;
     color: black;
-    
 }
 
-.separator{
+.separator {
     border-top: 1px solid #292929;
-    margin: 10px 0; 
-
+    margin: 10px 0;
 }
-.container-bott{
+
+.container-bott {
     display: flex;
     flex-direction: column;
-    gap: 600px   ;
+    gap: 600px;
 }
-.content-bottons{
+
+.content-bottons {
     display: flex;
     gap: 10px;
     align-items: center;
-
 }
 
-.language{
+.language {
     width: 70px;
     height: 16px;
 }
 
 
+@media(max-width: 768px) {
+   
+    .container {
+        display: flex;    
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: #ffff;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 22px 14px;
+    }
+    .content-img{
+        width: 25%; 
+        height: 55%;
+
+        
+    }
+    .but1 {
+        font-weight: 500;
+        padding: 16px 10px;
+        width: 20px;
+        height: 25px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 999px;
+        cursor: pointer;
+    }
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-content {
+        font-size: 28px;
+        width: 100%;
+        min-height: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .porto-img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .but1, .but2, .but3 {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    main {
+        padding: 60px 20px;
+        min-height: auto
+    }
+
+    .footer-content {
+        font-size: 18px;
+        padding: 10px;
+        background-color: black;
+    }
+
+    .container-bott { 
+        gap: 20px;   
+    }
+    html, body {
+        height: 100%;
+    }
+}
