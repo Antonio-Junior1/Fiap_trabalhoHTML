@@ -79,3 +79,68 @@ main {
     margin-bottom: 5px;
     color: #333;
 }
+.login-container input {
+    width: calc(100% - 22px); /* Compensa o padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link p {
+    color: #333;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+    padding: 100px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 56px;
+    max-width: 693px;
+    text-align: center;
+    border: #ffff;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
