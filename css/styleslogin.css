@@ -144,3 +144,38 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+.but3 {
+    font-weight: 500;
+    padding: 16px 10px;
+    width: 253px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #ffff;
+    color: black;
+}
+
+.separator {
+    border-top: 1px solid #292929;
+    margin: 10px 0;
+}
+
+.container-bott {
+    display: flex;
+    flex-direction: column;
+    gap: 600px;
+}
+
+.content-bottons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.language {
+    width: 70px;
+    height: 16px;
+}
