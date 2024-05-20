@@ -179,3 +179,26 @@ footer {
     width: 70px;
     height: 16px;
 }
+@media(max-width: 768px) {
+   
+    .container {
+        display: flex;    
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: #ffff;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding: 22px 14px;
+    }
+    .content-img{
+        width: 25%; 
+        height: 55%;
+
+        
+    }
