@@ -92,7 +92,7 @@ main {
     border-radius: 999px;
     cursor: pointer;
     background-color: #ffff;
-    transition: background-color 0.3s; /* Transição suave de cor */
+    transition: background-color 0.3s; 
 }
 
 footer {
