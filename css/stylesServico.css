@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease-in-out; /* Adicionando transições suaves */
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #00A1FC;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 22px 14px;
+  }
+  
+  .content-img {
+    width: 25%; 
+    height: 55%;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .service-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .but2 {
+    font-weight: 500;
+    padding: 16px 10px;
+    width: 253px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #ffff;
+    color: black;
+    transition: background-color 0.3s; 
+  }
+  
+  .but2:hover {
+    background-color: #005f99;
+  }
+  
+  footer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+    padding: 100px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 56px;
+    max-width: 693px;
+    text-align: center;
+    border: #ffff;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .but3 {
+    font-weight: 500;
+    padding: 16px 10px;
+    width: 253px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #ffff;
+    color: black;
+    transition: background-color 0.3s; 
+  }
+  
+  .but3:hover {
+    background-color: #005f99;
+  }
+  
+  .separator {
+    border-top: 1px solid #292929;
+    margin: 10px 0;
+  }
+  
+  .container-bott {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .content-bottons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .bott {
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+  }
+  .service-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+    
+    margin-bottom: 15px;
+    
+    
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .service-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  /* Responsivo */
+  @media(max-width: 768px) {
+    .container {
+      display: flex;    
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-bottom: 20px;
+      background-color: #00A1FC;
+    }
+  
+    .content {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      padding: 22px 14px;
+    }
+  
+    .content-img{
+      width: 50%; 
+      height: auto;
+    }
+  
+    .service-container {
+      padding: 20px;
+    }
+  
+    .services {
+      flex-direction: column;
+    }
+  
+    .service-item {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .but2, .but3 {
+      width: 100%;
+      max-width: 300px;
+      padding: 10px;
+    }
+  
+    footer {
+      padding: 20px;
+    }
+  
+    .footer-content {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .container-bott { 
+      gap: 10px;   
+    }
+  }
