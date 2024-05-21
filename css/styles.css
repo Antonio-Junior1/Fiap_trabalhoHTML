@@ -3,6 +3,7 @@
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     padding: 0;
     margin: 0;
+    transition: all 0.3s ease-in-out; /* Adicionando transições suaves */
 }
 html, body {
     height: 100%;
@@ -35,6 +36,7 @@ html, body {
     justify-content: center;
     border-radius: 999px;
     cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave de cor */
 }
 
 main {
@@ -90,6 +92,7 @@ main {
     border-radius: 999px;
     cursor: pointer;
     background-color: #ffff;
+    transition: background-color 0.3s; /* Transição suave de cor */
 }
 
 footer {
@@ -128,6 +131,7 @@ footer {
     cursor: pointer;
     background-color: #ffff;
     color: black;
+    transition: background-color 0.3s; /* Transição suave de cor */
 }
 
 .separator {
@@ -152,9 +156,27 @@ footer {
     height: 16px;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #00A1FC;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
 
+* {
+    transition: all 0.3s ease-in-out;
+}
+.but1:hover, .but2:hover, .but3:hover {
+    background-color: #005f99;
+}
+/* Responsivo */
 @media(max-width: 768px) {
-   
     .container {
         display: flex;    
         align-items: center;
@@ -163,19 +185,19 @@ footer {
         margin-bottom: 20px;
         background-color: #ffff;
     }
-    
+
     .content {
         display: flex;
         align-items: center;
         gap: 100px;
         padding: 22px 14px;
     }
+
     .content-img{
         width: 25%; 
         height: 55%;
-
-        
     }
+
     .but1 {
         font-weight: 500;
         padding: 16px 10px;
@@ -187,6 +209,7 @@ footer {
         border-radius: 999px;
         cursor: pointer;
     }
+
     .main-content {
         flex-direction: column;
         align-items: center;
@@ -204,7 +227,6 @@ footer {
         width: 50%;
         height: auto;
         margin-bottom: 20px;
-
     }
 
     .but1, .but2, .but3 {
@@ -215,7 +237,7 @@ footer {
 
     main {
         padding: 60px 20px;
-        min-height: auto
+        min-height: auto;
     }
 
     .footer-content {
@@ -227,6 +249,7 @@ footer {
     .container-bott { 
         gap: 20px;   
     }
+
     html, body {
         height: 100%;
     }
